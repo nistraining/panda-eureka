@@ -1,0 +1,13 @@
+#server:
+#port:9089
+#
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: my_route
+#          uri: http://example.org
+#          predicates:
+#            - Path=/example/**
+#          filters:
+#            - AddRequestHeader=X-Request-Example, ExampleValue
